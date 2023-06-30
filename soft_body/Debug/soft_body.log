@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file softbody_main.cu...
+  
+  C:\Users\somya\source\repos\soft_body\soft_body>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir Debug  -maxrregcount=0  --machine 32 --compile -cudart static  -g  -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\somya\source\repos\soft_body\soft_body\Debug\softbody_main.cu.obj "C:\Users\somya\source\repos\soft_body\soft_body\softbody_main.cu" 
+  Deprecated data layout, must be:
+  64-bit: e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64
+  
+CUDACOMPILE : nvcc warning : Compiling in the 32-bit mode is deprecated and may not be supported in future releases
+  softbody_main.cu
+C:\Users\somya\source\repos\soft_body\soft_body\soft_body_parallel.cuh(134): warning C4552: '-': result of expression not used
+C:\Users\somya\source\repos\soft_body\soft_body\softbody_main.cu(142): warning C4018: '<': signed/unsigned mismatch
+  soft_body.vcxproj -> C:\Users\somya\source\repos\soft_body\Debug\soft_body.exe
